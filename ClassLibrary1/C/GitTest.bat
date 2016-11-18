@@ -1,8 +1,4 @@
-git version
-
-git config --get remote.origin.url
-
-git config gc.auto 0
+git remote set-url origin http.https://starain.visualstudio.com/_git/GtitTest
 
 git config --get-all http.https://starain.visualstudio.com/_git/GtitTest.extraheader
 
