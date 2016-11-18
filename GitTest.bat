@@ -1,4 +1,4 @@
-﻿git version
+git version
 
 git config --get remote.origin.url
 
