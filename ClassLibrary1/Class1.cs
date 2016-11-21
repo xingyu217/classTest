@@ -11,5 +11,7 @@ namespace ClassLibrary1
         string s = "sgssssdss";
         string s1 = "update1";
         string s2 = "update2";
+        string s3 = "u1";
+        string s4 = "u2";
     }
 }
