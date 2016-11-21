@@ -8,5 +8,6 @@ namespace ClassLibrary1
 {
     class Class2
     {
+        string s = "ss";
     }
 }
