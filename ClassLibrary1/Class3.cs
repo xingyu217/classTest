@@ -8,5 +8,6 @@ namespace ClassLibrary1
 {
     class Class3
     {
+        string ll = "111";
     }
 }
