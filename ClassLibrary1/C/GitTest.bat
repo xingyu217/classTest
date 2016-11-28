@@ -1,11 +1,16 @@
-git config --get remote.origin.url
-
-git remote add origin http.https://starain.visualstudio.com/_git/GtitTest
-
-git config --get-all http.https://starain.visualstudio.com/_git/GtitTest.extraheader
-
-git -c http.extraheader="AUTHORIZATION: bearer %1" fetch --tags --prune --progress
-
-git checkout --progress --force master
-
-git config http.https://starain.visualstudio.com/_git/GtitTest.extraheader "AUTHORIZATION: bearer %1"
+ECHO ADD GIT TO PATH
+PATH %PATH%;C:\Program Files\Git\cmd
+ECHO TEST PATH
+set PATH
+ECHO GIT STATUS
+git status
+ECHO GIT CHECKOUT MASTER
+git checkout master
+ECHO GIT PULL FASTFORWARD
+git pull origin master
+ECHO GIT ADD ALL
+git add -A
+ECHO GIT COMMIT ALL
+git commit -m "Backing up Octopus P01 and P02"
+ECHO GIT PUSH
+git push origin master
