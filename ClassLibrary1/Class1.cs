@@ -16,5 +16,8 @@ namespace ClassLibrary1
         string s5 = "u3";
         string s6="ss";
         string p1 = "2";
+
+
+        string v = "1";
     }
 }
